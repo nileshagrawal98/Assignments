@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind - Text Style</title>
+</head>
+<body>
+    
+    <div class="container mx-auto">
+        <p class="text-center text-2xl md:text-4xl lg:text-6xl md:leading-6 lg:leading-8 text-red-700 md:text-green-700 lg:text-blue-600 underline capitalize md:lowercase lg:uppercase my-10">Text Style</p>
+        <p class="md:font-sans sm:font-serif lg:font-mono leading-none">Font family changes with width</p>
+        <p class="text-xl sm:text-sm md:text-lg lg:text-5xl leading-4">Font size changes with width</p>
+        <p class="italic lg:not-italic font-medium md:font-black lg:font-thin leading-7">Font weight and italic changes</p>
+        <p class="tracking-tighter md:tracking-normal lg:tracking-wider xl:tracking-widest leading-10">Letter spacing changes</p>
+        <input type="text" placeholder="Placeholder color changes" class="placeholder-red-400 md:placeholder-blue-900 lg:placeholder-green-600">
+        <input type="text" placeholder="Placeholder opacity changes" class="leading-10 block placeholder-indigo-500 md:placeholder-opacity-50 lg:placeholder-opacity-10">
+        <div class="w-36 border-2 border-black truncate">
+            Truncate Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </div>
+        
+    </div>
+
+
+
+</body>
+</html>
