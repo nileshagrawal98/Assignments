@@ -1,0 +1,84 @@
+use assignment
+
+db.users.insert({})
+
+db.users.insert({first_name: "Nilesh", last_name: "Agrawal", email: "nilesh@mail.com", gender: "Male", ip_address: "125.123.121.225", age: "22"})
+
+db.users.insertMany([{
+  first_name: "Gwynne",
+  last_name: "Winward",
+  email: "gwinward0@posterous.com",
+  gender: "Non-binary",
+  ip_address: "118.220.143.212",
+  age: 25
+}, {
+  first_name: "Tiffi",
+  last_name: "Muckley",
+  email: "tmuckley1@shop-pro.jp",
+  gender: "Bigender",
+  ip_address: "103.176.172.55",
+  age: 70
+},{
+  first_name: "Claiborn",
+  last_name: "Daens",
+  email: "cdaens2@rambler.ru",
+  gender: "Bigender",
+  ip_address: "58.106.206.164",
+  age: 58
+}, {
+  first_name: "Keriann",
+  last_name: "Hornig",
+  email: "khornig3@prlog.org",
+  gender: "Male",
+  ip_address: "98.207.37.252",
+  age: 67
+}, {
+  first_name: "Erna",
+  last_name: "Cameli",
+  email: "ecameli4@msn.com",
+  gender: "Male",
+  ip_address: "92.228.234.62",
+  age: 59
+}, {
+  first_name: "Izabel",
+  last_name: "Lennox",
+  email: "ilennox5@meetup.com",
+  gender: "Female",
+  ip_address: "104.197.36.105",
+  age: 43
+}, {
+  first_name: "Ringo",
+  last_name: "O'Dare",
+  email: "rodare6@huffingtonpost.com",
+  gender: "Female",
+  ip_address: "74.31.34.209",
+  age: 22
+}, {
+  first_name: "Pete",
+  last_name: "Coldridge",
+  email: "pcoldridge7@addthis.com",
+  gender: "Non-binary",
+  ip_address: "156.34.124.204",
+  age: 42
+}, {
+  first_name: "Jaclyn",
+  last_name: "Toffolini",
+  email: "jtoffolini8@theatlantic.com",
+  gender: "Bigender",
+  ip_address: "203.145.121.251",
+  age: 53
+}])
+
+db.users.find()
+
+db.users.findOne({_id: ObjectId("619baf8897a454e6c5ba80bb")})
+
+db.users.update({_id: ObjectId("619baf8897a454e6c5ba80bb")}, {$set: {first_name: "Nidhi", gender: "Female", ip_address:"165.64.215.225"}})
+
+db.users.updateMany({gender: "Male"}, {$set: {gender: "Female"}})
+
+db.users.deleteOne({_id: ObjectId("619bb72197a454e6c5ba80c5")})
+
+db.users.deleteMany({gender: "Female"})
+
+db.dropDatabase()
