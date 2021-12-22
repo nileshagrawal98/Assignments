@@ -1,0 +1,63 @@
+body{
+    background-color: #78909C;
+    color: rgb(14, 14, 14);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 3em;
+}
+
+.containerDiv {
+    display: flex;
+}
+
+.leftDiv {
+    width: 30%;
+    border: 2px solid #546E7A;
+    height:80vh;
+    padding: 5px;
+    background-color: #B0BEC5;
+}
+
+.rightDiv {
+    width: 68%;
+    border: 2px solid #546E7A;
+    padding: 5px;
+    background-color: #B0BEC5;
+}
+
+.noteContent {
+    width: 80%;
+    height: 50vh;
+}
+
+.previousNotes {
+    /* overflow-y: scroll; */
+    height: 70vh;
+}
+
+.storedNotes {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #dee9f3;
+    border: 1px solid #c9d4df;
+}
+
+.optionsDiv button{
+    padding: 10px;
+    margin: 5px;
+    background-color: #869297;
+    border: none;
+    cursor: pointer;
+    border-radius:8px;
+}
+
+.optionsDiv button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.274);
+}
