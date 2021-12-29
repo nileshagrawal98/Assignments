@@ -1,0 +1,18 @@
+.form {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid rgba(102, 102, 102, 0.287);
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px #6565657e;
+}
+
+.form > div > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form > div > input{
+    width: 200px; 
+}

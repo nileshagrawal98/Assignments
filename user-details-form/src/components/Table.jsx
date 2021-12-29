@@ -1,22 +1,25 @@
 import TableItem from './TableItem';
-
-function Table({ form }) {
-    let { name, age, address, department, salary, martialStatus, profilePhoto } = form;
-
-    return <table>
+import './Table.css'
+function Table({ userDetails }) {
+    return <table className="table">
         <thead>
             <tr>
-                <th style={{textAlign: 'center'}} colspan={2}>User Details</th>
+                <th style={{textAlign: 'center'}} colSpan={7}>User Detail's Table</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Marital Status</th>
+                <th>Profile Photo</th>
             </tr>
         </thead>
         <tbody>
-            <TableItem name='Name' value={name} />
-            <TableItem name='Age' value={age} />
-            <TableItem name='Address' value={address} />
-            <TableItem name='Department' value={department} />
-            <TableItem name='Salary' value={salary} />
-            <TableItem name='Martial Status' value={martialStatus ? 'Yes' : 'No'} />
-            <TableItem name='Profile Photo' value={profilePhoto && <img src={URL.createObjectURL(profilePhoto)} style={{ width: '100px' }} />} />
+            {
+                userDetails.map(user => <TableItem key={user.id} {...user}/>)
+            }
         </tbody>
     </table>
 }

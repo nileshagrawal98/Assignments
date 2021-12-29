@@ -1,0 +1,8 @@
+.table {
+    width: fit-content;
+    margin: 30px auto;
+    border: 1px solid rgba(102, 102, 102, 0.287);
+    padding: 10px;
+    box-shadow: 0 0 10px #6565657e;
+}
+
