@@ -1,0 +1,354 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "F-Series",
+            "price": 4715,
+            "color": "Turquoise",
+            "year": 1985
+        },
+        {
+            "id": 2,
+            "name": "F150",
+            "price": 2198,
+            "color": "Purple",
+            "year": 1992
+        },
+        {
+            "id": 3,
+            "name": "GX",
+            "price": 2700,
+            "color": "Puce",
+            "year": 2009
+        },
+        {
+            "id": 4,
+            "name": "D350 Club",
+            "price": 2542,
+            "color": "Fuscia",
+            "year": 1993
+        },
+        {
+            "id": 5,
+            "name": "Jetta",
+            "price": 4852,
+            "color": "Green",
+            "year": 2007
+        },
+        {
+            "id": 6,
+            "name": "V8 Vantage",
+            "price": 8706,
+            "color": "Indigo",
+            "year": 2008
+        },
+        {
+            "id": 7,
+            "name": "SVX",
+            "price": 3205,
+            "color": "Purple",
+            "year": 1992
+        },
+        {
+            "id": 8,
+            "name": "Durango",
+            "price": 5122,
+            "color": "Maroon",
+            "year": 2007
+        },
+        {
+            "id": 9,
+            "name": "Montego",
+            "price": 8568,
+            "color": "Goldenrod",
+            "year": 2005
+        },
+        {
+            "id": 10,
+            "name": "G",
+            "price": 5146,
+            "color": "Purple",
+            "year": 2002
+        },
+        {
+            "id": 11,
+            "name": "Mark VIII",
+            "price": 3116,
+            "color": "Violet",
+            "year": 1998
+        },
+        {
+            "id": 12,
+            "name": "S-Class",
+            "price": 6708,
+            "color": "Goldenrod",
+            "year": 1998
+        },
+        {
+            "id": 13,
+            "name": "Armada",
+            "price": 5718,
+            "color": "Turquoise",
+            "year": 2007
+        },
+        {
+            "id": 14,
+            "name": "Camry",
+            "price": 8609,
+            "color": "Maroon",
+            "year": 1999
+        },
+        {
+            "id": 15,
+            "name": "Tracker",
+            "price": 5040,
+            "color": "Orange",
+            "year": 2002
+        },
+        {
+            "id": 16,
+            "name": "Sable",
+            "price": 2820,
+            "color": "Maroon",
+            "year": 1990
+        },
+        {
+            "id": 17,
+            "name": "E-Series",
+            "price": 7056,
+            "color": "Pink",
+            "year": 2005
+        },
+        {
+            "id": 18,
+            "name": "LS",
+            "price": 3029,
+            "color": "Teal",
+            "year": 1992
+        },
+        {
+            "id": 19,
+            "name": "Frontier",
+            "price": 4925,
+            "color": "Fuscia",
+            "year": 2012
+        },
+        {
+            "id": 20,
+            "name": "A5",
+            "price": 8696,
+            "color": "Teal",
+            "year": 2008
+        },
+        {
+            "id": 21,
+            "name": "S-Class",
+            "price": 5512,
+            "color": "Purple",
+            "year": 1984
+        },
+        {
+            "id": 22,
+            "name": "Sonata",
+            "price": 6341,
+            "color": "Maroon",
+            "year": 2004
+        },
+        {
+            "id": 23,
+            "name": "Bronco",
+            "price": 1769,
+            "color": "Maroon",
+            "year": 1989
+        },
+        {
+            "id": 24,
+            "name": "QX",
+            "price": 9542,
+            "color": "Puce",
+            "year": 1998
+        },
+        {
+            "id": 25,
+            "name": "MDX",
+            "price": 9032,
+            "color": "Crimson",
+            "year": 2008
+        },
+        {
+            "id": 26,
+            "name": "E-Series",
+            "price": 9418,
+            "color": "Fuscia",
+            "year": 1986
+        },
+        {
+            "id": 27,
+            "name": "Civic",
+            "price": 5691,
+            "color": "Turquoise",
+            "year": 2008
+        },
+        {
+            "id": 28,
+            "name": "Aztek",
+            "price": 8749,
+            "color": "Aquamarine",
+            "year": 2001
+        },
+        {
+            "id": 29,
+            "name": "Defender",
+            "price": 8989,
+            "color": "Aquamarine",
+            "year": 1995
+        },
+        {
+            "id": 30,
+            "name": "Pajero",
+            "price": 8252,
+            "color": "Yellow",
+            "year": 1993
+        },
+        {
+            "id": 31,
+            "name": "Veracruz",
+            "price": 7603,
+            "color": "Purple",
+            "year": 2007
+        },
+        {
+            "id": 32,
+            "name": "9-3",
+            "price": 9607,
+            "color": "Khaki",
+            "year": 1999
+        },
+        {
+            "id": 33,
+            "name": "B-Series",
+            "price": 6739,
+            "color": "Crimson",
+            "year": 2002
+        },
+        {
+            "id": 34,
+            "name": "Venture",
+            "price": 2745,
+            "color": "Teal",
+            "year": 2001
+        },
+        {
+            "id": 35,
+            "name": "TrailBlazer",
+            "price": 5524,
+            "color": "Yellow",
+            "year": 2003
+        },
+        {
+            "id": 36,
+            "name": "SX4",
+            "price": 9134,
+            "color": "Goldenrod",
+            "year": 2011
+        },
+        {
+            "id": 37,
+            "name": "XL7",
+            "price": 8230,
+            "color": "Purple",
+            "year": 2006
+        },
+        {
+            "id": 38,
+            "name": "Chevette",
+            "price": 2895,
+            "color": "Crimson",
+            "year": 1987
+        },
+        {
+            "id": 39,
+            "name": "Trans Sport",
+            "price": 6277,
+            "color": "Purple",
+            "year": 1996
+        },
+        {
+            "id": 40,
+            "name": "Ram Van 1500",
+            "price": 8405,
+            "color": "Goldenrod",
+            "year": 2002
+        },
+        {
+            "id": 41,
+            "name": "F350",
+            "price": 8980,
+            "color": "Orange",
+            "year": 2011
+        },
+        {
+            "id": 42,
+            "name": "62",
+            "price": 3314,
+            "color": "Goldenrod",
+            "year": 2007
+        },
+        {
+            "id": 43,
+            "name": "Tucson",
+            "price": 2685,
+            "color": "Teal",
+            "year": 2011
+        },
+        {
+            "id": 44,
+            "name": "Cabriolet",
+            "price": 2173,
+            "color": "Khaki",
+            "year": 1994
+        },
+        {
+            "id": 45,
+            "name": "MDX",
+            "price": 1699,
+            "color": "Turquoise",
+            "year": 2009
+        },
+        {
+            "id": 46,
+            "name": "Impreza",
+            "price": 9118,
+            "color": "Blue",
+            "year": 2009
+        },
+        {
+            "id": 47,
+            "name": "Amanti",
+            "price": 7934,
+            "color": "Maroon",
+            "year": 2005
+        },
+        {
+            "id": 48,
+            "name": "IS",
+            "price": 9848,
+            "color": "Red",
+            "year": 2010
+        },
+        {
+            "id": 49,
+            "name": "Pacifica",
+            "price": 4167,
+            "color": "Red",
+            "year": 2005
+        },
+        {
+            "id": 50,
+            "name": "GS",
+            "price": 2828,
+            "color": "Goldenrod",
+            "year": 1998
+        }
+    ]
+}
