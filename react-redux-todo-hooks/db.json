@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "title": "Task 1",
+      "status": true,
+      "detail": "Detail 1",
+      "id": 1
+    },
+    {
+      "title": "Learning Redux",
+      "status": false,
+      "detail": "Solving Redux Assignments",
+      "id": 12
+    }
+  ]
+}
