@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Infinite Scrolling</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <ul id="items-list">
+    </ul>
+  </div>
+
+  <script>
+    let itemList = document.getElementById('items-list');
+
+    let itemCounter = 1;
+
+    window.onload = () => {
+      addItemsToList();
+    }
+
+    function addItemsToList() {
+      for (let i = 0; i < 25; i++) {
+        let li = document.createElement('li');
+        li.innerText = `Masai Student ${itemCounter++}`;
+        itemList.append(li);
+      }
+    }
+
+    itemList.addEventListener('scroll', (e) => {
+      //   console.log('scrollTop' + e.target.scrollTop);
+      //   console.log('clientHeight' + e.target.clientHeight);
+      //   console.log('scrollHeight' + e.target.scrollHeight);
+      //   console.log('getBoundingClientRect' + e.target.getBoundingClientRect());
+      //   console.log('getClientRects' + e.target.getClientRects());
+
+
+      if (Math.ceil(e.target.scrollTop) == (e.target.scrollHeight - e.target.clientHeight)) {
+        addItemsToList();
+      }
+
+    });
+  </script>
+
+</body>
+
+</html>
